@@ -13,9 +13,54 @@ nav a {
   font-weight: 600;
 }
 
-nav a:hover {
-  color: #000;
+/* Couleurs de la palette */
+:root {
+  --gold: #FFD700;           /* Or brillant */
+  --white: #FFFFFF;         /* Blanc */
+  --black: #000000;         /* Noir */
+  --light-gray: #D3D3D3;    /* Gris clair */
+  --dark-gray: #A9A9A9;     /* Gris foncé */
+  --red: #FF4500;           /* Rouge vif */
+  --navy-blue: #000080;     /* Bleu marine */
+  --emerald-green: #50C878; /* Vert émeraude */
+  --purple: #800080;        /* Violet */
 }
+
+/* Utilisation des couleurs */
+body {
+  background-color: var(--white); /* Fond blanc */
+  color: var(--black);             /* Texte noir */
+}
+
+h1 {
+  color: var(--gold);              /* Titre en or brillant */
+}
+
+p {
+  color: var(--dark-gray);         /* Paragraphe en gris foncé */
+}
+
+.button {
+  background-color: var(--red);    /* Bouton rouge */
+  color: var(--white);              /* Texte du bouton en blanc */
+}
+
+.footer {
+  background-color: var(--navy-blue); /* Fond de pied de page bleu marine */
+  color: var(--white);                 /* Texte en blanc */
+}
+
+/* Autres éléments */
+.card {
+  background-color: var(--light-gray); /* Fond de la carte en gris clair */
+  color: var(--black);                  /* Texte en noir */
+}
+
+.alert {
+  background-color: var(--emerald-green); /* Fond d'alerte en vert émeraude */
+  color: var(--white);                    /* Texte en blanc */
+}
+
 
 
 
