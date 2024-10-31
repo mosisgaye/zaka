@@ -8,7 +8,7 @@ const Banner = () => {
         <img
           src="/team.jpg"
           alt="Background Image"
-          className="w-full h-full object-cover filter brightness-75" // Ajuste la luminosité de l'image
+          className="w-full h-full object-cover filter brightness-125" // Ajuste la luminosité de l'image
         />
       </div>
 

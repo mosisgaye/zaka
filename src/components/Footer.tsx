@@ -9,8 +9,7 @@ const Footer = () => {
         
         {/* Section Logo */}
         <div className="flex flex-col items-center md:items-start">
-          <Image src="/zaka.png" alt="zaka AGENCY" width={100} height={50} />
-          <p className="text-sm mt-2 tracking-widest">INSPIRED BY YOUR FUTURE</p>
+          <Image src="/1.png" alt="zaka AGENCY" width={220} height={113} />
         </div>
 
         {/* Section Réseaux sociaux */}
