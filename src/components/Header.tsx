@@ -16,7 +16,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/">
-            <Image src="/1.png" alt="zaka" width={220} height={113} />
+            <Image src="/1.png" alt="zaka" width={220} height={120} />
           </Link>
         </div>
 
@@ -39,31 +39,31 @@ const Header = () => {
         <nav className="hidden md:flex space-x-6">
           <Link href="/Accueil">
             <div className="relative group">
-              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">Accueil</span>
+              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">ACCUEIL</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD700] transition-all duration-300 group-hover:w-full"></div>
             </div>
           </Link>
           <Link href="/athletes">
             <div className="relative group">
-              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">athletes</span>
+              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">ATHETLES</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD700] transition-all duration-300 group-hover:w-full"></div>
             </div>
           </Link>
           <Link href="/services">
             <div className="relative group">
-              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">services</span>
+              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">SERVICES</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD700] transition-all duration-300 group-hover:w-full"></div>
             </div>
           </Link>
           <Link href="/about">
             <div className="relative group">
-              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">about</span>
+              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">ABOUT</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD700] transition-all duration-300 group-hover:w-full"></div>
             </div>
           </Link>
           <Link href="/blog">
             <div className="relative group">
-              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">blog</span>
+              <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">BLOG</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD700] transition-all duration-300 group-hover:w-full"></div>
             </div>
           </Link>
@@ -89,27 +89,27 @@ const Header = () => {
           <ul className="flex flex-col space-y-2 p-4">
             <li>
               <Link href="/Accueil">
-                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">Accueil</div>
+                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">ACCUEIL</div>
               </Link>
             </li>
             <li>
               <Link href="/athletes">
-                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">athletes</div>
+                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">ATLHELES</div>
               </Link>
             </li>
             <li>
               <Link href="/services">
-                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">services</div>
+                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">SERVICES</div>
               </Link>
             </li>
             <li>
               <Link href="/about">
-                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">about</div>
+                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">ABOUT</div>
               </Link>
             </li>
             <li>
               <Link href="/blog">
-                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">blog</div>
+                <div className="text-dark-gray hover:text-[#FFD700] transition duration-300">BLOG</div>
               </Link>
             </li>
             <li>
