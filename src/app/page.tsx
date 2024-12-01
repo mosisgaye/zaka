@@ -1,14 +1,17 @@
 import Banner from "@/components/Banner";
-import Hero from "@/components/Hero";
+import FootballSchoolSection from "@/components/FootballSchoolSection";
+import { HeroSection } from "@/components/HeroSection";
 import ImageGrid from "@/components/ImageGrid";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
 <div>
-  <Banner />
+  <HeroSection />
+  <FootballSchoolSection />
   <ImageGrid />
-  <Hero />
+  <Banner />
+ 
 </div>
   );
 }
