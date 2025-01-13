@@ -37,7 +37,7 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
-          <Link href="/Accueil">
+          <Link href="/">
             <div className="relative group">
               <span className="text-dark-gray hover:text-[#FFD700] transition duration-300">ACCUEIL</span>
               <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFD700] transition-all duration-300 group-hover:w-full"></div>
